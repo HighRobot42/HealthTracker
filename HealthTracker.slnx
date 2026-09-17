@@ -1,0 +1,19 @@
+<Solution>
+  <Project Path="Backend\Api.GraphQl\HealthTracker.Api.GraphQl.csproj" />
+  <Project Path="Backend\Api.GraphQl.IntegrationTests\Api.GraphQl.IntegrationTests.csproj" />
+  <Project Path="Backend\Application\Application.csproj" />
+  <Project Path="Backend\Application.IntegrationTests\Application.IntegrationTests.csproj" />
+  <Project Path="Backend\Application.UnitTests\Application.UnitTests.csproj" />
+  <Project Path="Backend\Aspire.AppHost\Aspire.AppHost.csproj" />
+  <Project Path="Backend\BackgroundTasks\HealthTracker.BackgroundTasks.csproj" />
+  <Project Path="Backend\build\build.csproj" />
+  <Project Path="Backend\DatabaseMigration\HealthTracker.DatabaseMigration.csproj" />
+  <Project Path="Backend\DatabaseMigration.IntegrationTests\DatabaseMigration.IntegrationTests.csproj" />
+  <Project Path="Backend\DataContracts\DataContracts.csproj" />
+  <Project Path="Backend\Domain\Domain.csproj" />
+  <Project Path="Backend\Domain.UnitTests\Domain.UnitTests.csproj" />
+  <Project Path="Backend\EventContracts\EventContracts.csproj" />
+  <Project Path="Backend\Infrastructure\Infrastructure.csproj" />
+  <Project Path="Backend\IntegrationTests.Core\IntegrationTests.Core.csproj" />
+  <Project Path="Backend\SharedDomain\SharedDomain.csproj" />
+</Solution>

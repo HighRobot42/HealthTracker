@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<RootNamespace>HealthTracker.EventContracts</RootNamespace>
+		<AssemblyName>HealthTracker.EventContracts</AssemblyName>
+		<IsPackable>true</IsPackable>
+		<IsPublishable>true</IsPublishable>
+		<IsTestProject>false</IsTestProject>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\DataContracts\DataContracts.csproj" />
+	</ItemGroup>
+
+</Project>

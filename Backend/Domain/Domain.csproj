@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+	<!-- Domain only depends on MediatR for INotification (domain events) -->
+	<ItemGroup>
+		<PackageReference Include="BeCause.NuGet.Policy" Version="3.1.0" />
+		<PackageReference Include="BeCause.WikiEditor.SharedDomain" Version="1.0.1783428673" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\DataContracts\DataContracts.csproj" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+<Solution>
+  <Folder Name="/Build/">
+    <Project Path="Aspire.AppHost/Aspire.AppHost.csproj" />
+    <Project Path="build/build.csproj" />
+  </Folder>
+  <Folder Name="/Shared/">
+    <Project Path="DataContracts/DataContracts.csproj" />
+    <Project Path="EventContracts/EventContracts.csproj" />
+    <Project Path="SharedDomain/SharedDomain.csproj" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path="docker-compose.yml" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Core/">
+    <Project Path="Application/Application.csproj" />
+    <Project Path="Domain/Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Executables/">
+    <Project Path="Api.GraphQl/HealthTracker.Api.GraphQl.csproj" />
+    <Project Path="DatabaseMigration/HealthTracker.DatabaseMigration.csproj" />
+  </Folder>
+  <Folder Name="/src/Infrastructures/">
+    <Project Path="Infrastructure/Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="Api.GraphQl.IntegrationTests/Api.GraphQl.IntegrationTests.csproj" />
+    <Project Path="Application.IntegrationTests/Application.IntegrationTests.csproj" />
+    <Project Path="Application.UnitTests/Application.UnitTests.csproj" />
+    <Project Path="DatabaseMigration.IntegrationTests/DatabaseMigration.IntegrationTests.csproj" />
+    <Project Path="Domain.UnitTests/Domain.UnitTests.csproj" />
+    <Project Path="IntegrationTests.Core/IntegrationTests.Core.csproj" />
+  </Folder>
+</Solution>
